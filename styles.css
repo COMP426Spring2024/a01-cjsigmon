@@ -1,10 +1,12 @@
 body {
-    background-image: linear-gradient(rgb(190, 214, 218), white);
+    background-image: linear-gradient(#bed6da, #ffffff);
 }
 
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 4px  2px 0#00242c8e;
+    font-size: 3em;
 }
 
 p, li {
@@ -31,19 +33,29 @@ p, li {
     max-width: 100%;
 }
 
-#manatee-chomp {
+#manatee-chomp, #manatee-swim, #manatee-cute {
     max-width: 80%;
 }
 
 table {
     margin-top: 2em;
-    background-color: aqua;
+    background-color: #ffffff;
     padding: 2em;
     border: 2px solid;
 }
 
+tbody > tr {
+    background-color: #bed6da;
+}
+
+thead > tr {
+    background-color: #00242c;
+}
+
+
 th {
-    border: 2px solid black;
+    border: 2px solid;
+    color: #ffffff;
 }
 
 td {
@@ -51,14 +63,20 @@ td {
     font-size: 2em;
     padding: 0.5em;
 }
+td:hover {
+    background-color: #00242c;
+    color: #ffffff;
+    cursor: pointer;
+}
 
 .next-page {
     margin: 3em;
     font-size: 3em;
     font-weight: bold;
-    color: cadetblue;
-    background-color: bisque;
-    border: 1px dotted gray;
+    color: #5f9ea0;
+    background-color: #ffffff;
+    padding: 1em;
+    border: 12px dotted #808080;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
