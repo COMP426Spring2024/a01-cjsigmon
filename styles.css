@@ -1,3 +1,68 @@
+body {
+    background-image: linear-gradient(rgb(190, 214, 218), white);
+}
+
+
 h1 {
     font-family: 'Courier New', Courier, monospace;
 }
+
+p, li {
+    font-family:'Courier New', Courier, monospace
+}
+
+.lead {
+    font-weight: bold;
+}
+
+.flex-center-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.main-text {
+    padding-left: 2em;
+  }
+
+.just-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+#manatee-chomp {
+    max-width: 80%;
+}
+
+table {
+    margin-top: 2em;
+    background-color: aqua;
+    padding: 2em;
+    border: 2px solid;
+}
+
+th {
+    border: 2px solid black;
+}
+
+td {
+    border: 2px solid;
+    font-size: 2em;
+    padding: 0.5em;
+}
+
+.next-page {
+    margin: 3em;
+    font-size: 3em;
+    font-weight: bold;
+    color: cadetblue;
+    background-color: bisque;
+    border: 1px dotted gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.next-page:hover {
+    background-color: rgb(126, 202, 204);
+}
+
