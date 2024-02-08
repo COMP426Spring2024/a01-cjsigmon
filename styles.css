@@ -63,11 +63,7 @@ td {
     font-size: 2em;
     padding: 0.5em;
 }
-td:hover {
-    background-color: #00242c;
-    color: #ffffff;
-    cursor: pointer;
-}
+
 
 .next-page, .review {
     font-size: 3em;
@@ -78,10 +74,21 @@ td:hover {
 
 .next-page {
     margin: 3em;
-
     background-color: #ffffff;
     padding: 1em;
     border: 12px dotted #808080;
+}
+
+.answer {
+    background-color: black;
+}
+
+.option {
+    color: #ffffff;
+}
+
+.answer:hover > .result {
+    color: #ffffff;
 }
 
 .next-page:hover {
