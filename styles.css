@@ -69,15 +69,19 @@ td:hover {
     cursor: pointer;
 }
 
-.next-page {
-    margin: 3em;
+.next-page, .review {
     font-size: 3em;
     font-weight: bold;
     color: #5f9ea0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.next-page {
+    margin: 3em;
+
     background-color: #ffffff;
     padding: 1em;
     border: 12px dotted #808080;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .next-page:hover {
